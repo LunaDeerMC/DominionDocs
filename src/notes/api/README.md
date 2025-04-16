@@ -8,5 +8,8 @@ permalink: /notes/api/
 
 <LinkCard icon="vscode-icons:file-type-dtd" title="源码仓库" href="https://github.com/LunaDeerMC/DominionAPI" />
 
-<LinkCard icon="twemoji:airplane-departure" title="JavaDoc" href="https://coldezhang.github.io/DominionAPI/" />
+<LinkCard icon="twemoji:orange-book" title="JavaDoc" href="https://lunadeermc.github.io/DominionAPI/" />
 
+<LinkCard icon="twemoji:airplane-departure" title="快速使用" href="/notes/api/quick/" />
+
+<LinkCard icon="twemoji:package" title="附属示例" href="https://github.com/LunaDeerMC/DominionAddonExample" />
