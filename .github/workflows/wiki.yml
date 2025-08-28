@@ -44,10 +44,20 @@ jobs:
           TARGET: ${{ secrets.REMOTE_TARGET_DIR }}
           EXCLUDE: "/node_modules/, /.git/, /.github/"
           SCRIPT_BEFORE: |
-            # 创建目标目录（如果不存在）
+            # 备份并清理旧目录
+            if [ -d "${{ secrets.REMOTE_TARGET_DIR }}" ]; then
+              echo "Backing up old deployment..."
+              cp -r ${{ secrets.REMOTE_TARGET_DIR }} ${{ secrets.REMOTE_TARGET_DIR }}.backup.$(date +%Y%m%d_%H%M%S)
+              echo "Cleaning old files..."
+              rm -rf ${{ secrets.REMOTE_TARGET_DIR }}/*
+            fi
+            # 创建目标目录
             mkdir -p ${{ secrets.REMOTE_TARGET_DIR }}
           SCRIPT_AFTER: |
             # 设置正确的文件权限
             find ${{ secrets.REMOTE_TARGET_DIR }} -type f -exec chmod 644 {} \;
             find ${{ secrets.REMOTE_TARGET_DIR }} -type d -exec chmod 755 {} \;
+            # 清理过期备份（保留最近3个）
+            cd $(dirname ${{ secrets.REMOTE_TARGET_DIR }})
+            ls -dt $(basename ${{ secrets.REMOTE_TARGET_DIR }}).backup.* 2>/dev/null | tail -n +4 | xargs rm -rf 2>/dev/null || true
             echo "Deployment completed successfully!"
