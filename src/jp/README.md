@@ -13,6 +13,14 @@ config:
         - theme: brand
           text: 今すぐダウンロード 💾
           link: https://github.com/LunaDeerMC/Dominion/releases/latest
+        -
+          theme: brand
+          text: プレイヤー 📖
+          link: /jp/notes/doc/player/README.md
+        -
+          theme: brand
+          text: サーバーオーナー 🛠️
+          link: /jp/notes/doc/owner/README.md
         - theme: alt
           text: ソースコード 🔗
           link: https://github.com/LunaDeerMC/Dominion

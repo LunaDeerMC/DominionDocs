@@ -16,6 +16,14 @@ config:
           text: Download Now 💾
           link: https://github.com/LunaDeerMC/Dominion/releases/latest
         -
+          theme: brand
+          text: Player Docs 📖
+          link: /en/notes/doc/player/README.md
+        -
+          theme: brand
+          text: Server Owner Docs 🛠️
+          link: /en/notes/doc/owner/README.md
+        -
           theme: alt
           text: Source Code 🔗
           link: https://github.com/LunaDeerMC/Dominion

@@ -16,6 +16,14 @@ config:
           text: Скачать сейчас 💾
           link: https://github.com/LunaDeerMC/Dominion/releases/latest
         -
+          theme: brand
+          text: Игрок 📖
+          link: /ru/notes/doc/player/README.md
+        -
+          theme: brand
+          text: Владелец сервера 🛠️
+          link: /ru/notes/doc/owner/README.md
+        -
           theme: alt
           text: Исходный код 🔗
           link: https://github.com/LunaDeerMC/Dominion
