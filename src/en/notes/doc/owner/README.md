@@ -9,4 +9,3 @@ permalink: /en/notes/doc/owner/
 <LinkCard icon="emojione-v1:airplane-departure" title="Quick Start" href="/en/notes/doc/owner/install/" />
 
 <LinkCard icon="emojione-v1:document" title="Configuration Reference" href="/en/notes/doc/owner/config-ref/overview/" />
-
