@@ -1,4 +1,4 @@
----
+﻿---
 pageLayout: home
 externalLinkIcon: false
 config:
@@ -18,13 +18,15 @@ config:
         -
           theme: brand
           text: Игрок 📖
-          link: /ru/notes/doc/player/README.md
+          link: /ru/doc/player/
         -
           theme: brand
           text: Владелец сервера 🛠️
-          link: /ru/notes/doc/owner/README.md
+          link: /ru/doc/owner/
         -
           theme: alt
           text: Исходный код 🔗
           link: https://github.com/LunaDeerMC/Dominion
 ---
+
+

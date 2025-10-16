@@ -1,4 +1,4 @@
----
+﻿---
 pageLayout: home
 externalLinkIcon: false
 config:
@@ -16,12 +16,14 @@ config:
         -
           theme: brand
           text: プレイヤー 📖
-          link: /jp/notes/doc/player/README.md
+          link: /jp/doc/player/
         -
           theme: brand
           text: サーバーオーナー 🛠️
-          link: /jp/notes/doc/owner/README.md
+          link: /jp/doc/owner/
         - theme: alt
           text: ソースコード 🔗
           link: https://github.com/LunaDeerMC/Dominion
 ---
+
+

@@ -6,7 +6,7 @@
   "author": "zhangyuheng <zhangyuheng@lunadeer.cn>",
   "license": "MIT",
   "engines": {
-    "node": "^18.20.0 || >=20.0.0"
+    "node": "^20.6.0 || >=22.0.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev src",
@@ -16,12 +16,12 @@
     "vp-update": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
-    "vuepress": "2.0.0-rc.19",
-    "vuepress-theme-plume": "1.0.0-rc.124",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
     "http-server": "^14.1.1",
-    "vue": "^3.5.13",
-    "sass-embedded": "^1.83.0",
-    "typescript": "^5.7.2"
+    "sass-embedded": "^1.93.2",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.22",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-plume": "1.0.0-rc.172"
   }
 }

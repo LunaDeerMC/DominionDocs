@@ -1,4 +1,4 @@
----
+﻿---
 pageLayout: home
 externalLinkIcon: false
 config:
@@ -18,13 +18,15 @@ config:
         -
           theme: brand
           text: 玩家手册 📖
-          link: /notes/doc/player/README.md
+          link: /doc/player/
         -
           theme: brand
           text: 服主手册 🛠️
-          link: /notes/doc/owner/README.md
+          link: /doc/owner/
         -
           theme: alt
           text: 阅读源码 🔗
           link: https://github.com/LunaDeerMC/Dominion
 ---
+
+

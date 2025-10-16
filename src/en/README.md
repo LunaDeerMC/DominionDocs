@@ -1,4 +1,4 @@
----
+﻿---
 pageLayout: home
 externalLinkIcon: false
 config:
@@ -18,13 +18,15 @@ config:
         -
           theme: brand
           text: Player Docs 📖
-          link: /en/notes/doc/player/README.md
+          link: /en/doc/player/
         -
           theme: brand
           text: Server Owner Docs 🛠️
-          link: /en/notes/doc/owner/README.md
+          link: /en/doc/owner/
         -
           theme: alt
           text: Source Code 🔗
           link: https://github.com/LunaDeerMC/Dominion
 ---
+
+
