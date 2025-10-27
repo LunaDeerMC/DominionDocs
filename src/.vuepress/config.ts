@@ -35,7 +35,7 @@ export default defineUserConfig({
         // hostname: 'https://your_site_url',
         // your git repo url
         docsRepo: 'https://github.com/ColdeZhang/Dominion',
-        docsDir: 'docs/src',
+        docsDir: 'src',
         docsBranch: 'master',
 
         blog: false,  // 禁用博客
