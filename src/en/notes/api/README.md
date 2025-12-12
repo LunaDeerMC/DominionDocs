@@ -12,4 +12,4 @@ permalink: /en/notes/api/
 
 <LinkCard icon="twemoji:airplane-departure" title="Quick Start" href="/en/notes/api/quick/" />
 
-<LinkCard icon="twemoji:package" title="Example Addon" href="https://github.com/LunaDeerMC/DominionAddonExample" />
+<LinkCard icon="twemoji:package" title="Example Addon" href="https://dominion.lunadeer.cn/en/notes/doc/owner/addons/" />
