@@ -1,6 +1,6 @@
-import {viteBundler} from '@vuepress/bundler-vite'
-import {defineUserConfig} from 'vuepress'
-import {plumeTheme} from 'vuepress-theme-plume'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress'
+import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
     base: '/',
@@ -27,6 +27,17 @@ export default defineUserConfig({
             description: 'Documentation of Dominion.',
         },
     },
+
+    head: [
+        [
+            "script",
+            {
+                src: "https://hwcxiuzfylggtcktqgij.supabase.co/storage/v1/object/public/demo-public/v0.0.4/page-agent.js",
+                crossorigin: "true",
+                type: "text/javascript"
+            }
+        ]
+    ],
 
     bundler: viteBundler(),
 
