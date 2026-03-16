@@ -28,17 +28,6 @@ export default defineUserConfig({
         },
     },
 
-    head: [
-        [
-            "script",
-            {
-                src: "https://registry.npmmirror.com/page-agent/1.5.7/files/dist/iife/page-agent.demo.js",
-                crossorigin: "true",
-                type: "text/javascript"
-            }
-        ]
-    ],
-
     bundler: viteBundler(),
 
     theme: plumeTheme({
