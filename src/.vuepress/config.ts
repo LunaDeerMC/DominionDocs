@@ -32,7 +32,7 @@ export default defineUserConfig({
         [
             "script",
             {
-                src: "https://hwcxiuzfylggtcktqgij.supabase.co/storage/v1/object/public/demo-public/v0.0.4/page-agent.js",
+                src: "https://registry.npmmirror.com/page-agent/1.5.7/files/dist/iife/page-agent.demo.js",
                 crossorigin: "true",
                 type: "text/javascript"
             }
